@@ -3,7 +3,7 @@ import random
 
 ## Getting list of possible words
 
-def get_words(path='words.txt'):
+def get_words():
     with open('words.txt', 'r') as file:
         lines = file.readlines()
         words = []

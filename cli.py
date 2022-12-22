@@ -1,7 +1,5 @@
 from functions import get_words, lower_case, words_split
 
-import random
-
 
 words_database = get_words()
 
@@ -13,18 +11,18 @@ abc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o'
        'w', 'x', 'y', 'z']
 
 
-l1 = abc[random.randint(0, 25)]
-l2 = abc[random.randint(0, 25)]
-l3 = abc[random.randint(0, 25)]
-l4 = abc[random.randint(0, 25)]
-l5 = abc[random.randint(0, 25)]
-l6 = abc[random.randint(0, 25)]
-l7 = abc[random.randint(0, 25)]
-l8 = abc[random.randint(0, 25)]
-l9 = abc[random.randint(0, 25)]
-l10 = abc[random.randint(0, 25)]
-l11 = abc[random.randint(0, 25)]
-l12 = abc[random.randint(0, 25)]
+l1 = input("Input L1:")
+l2 = input("Input L2:")
+l3 = input("Input L3:")
+l4 = input("Input L4:")
+l5 = input("Input L5:")
+l6 = input("Input L6:")
+l7 = input("Input L7:")
+l8 = input("Input L8:")
+l9 = input("Input L9:")
+l10 = input("Input L10:")
+l11 = input("Input L11:")
+l12 = input("Input L12:")
 
 letters = [l1, l2, l3, l4, l5, l6, l7, l8, l9, l10, l11, l12]
 
