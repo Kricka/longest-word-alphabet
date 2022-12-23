@@ -67,165 +67,107 @@ def random_letters():
 
 def word12(dictionary,letters):
     for x in dictionary['words12']:
-        letter = []
-        for x in letters:
-            letter.append(x)
         word = []
+        let = list(letters)
         for i in range(0, len(x)):
-            if x[i] in letter:
-                letter.remove(x[i])
+            if x[i] in let:
+                let.remove(x[i])
                 word.append(x[i])
-        if len(word) == len(x) and len(letter) == 0 and len(x) > 2:
-            return word
-
-
-
-
-# Getting word with 11 characters
-
-def word11(dictionary, letters):
+        if len(word) == len(x) and len(let) == 0 and len(x) > 2:
+            return "".join(word)
+def word11(dictionary,letters):
     for x in dictionary['words11']:
-        letter = []
-        for x in letters:
-            letter.append(x)
         word = []
+        let = list(letters)
         for i in range(0, len(x)):
-            if x[i] in letter:
-                letter.remove(x[i])
+            if x[i] in let:
+                let.remove(x[i])
                 word.append(x[i])
-        if len(word) == len(x) and len(letter) == 0 and len(x) > 2:
-            return word
-
-
-# Getting word with 10 characters
-
-def word10(dictionary, letters):
+        if len(word) == len(x) and len(let) == 1 and len(x) > 2:
+            return "".join(word)
+def word10(dictionary,letters):
     for x in dictionary['words10']:
-        letter = []
-        for x in letters:
-            letter.append(x)
         word = []
+        let = list(letters)
         for i in range(0, len(x)):
-            if x[i] in letter:
-                letter.remove(x[i])
+            if x[i] in let:
+                let.remove(x[i])
                 word.append(x[i])
-        if len(word) == len(x) and len(letter) == 0 and len(x) > 2:
-            return word
+        if len(word) == len(x) and len(let) == 2 and len(x) > 2:
+            return "".join(word)
 
-
-# Getting word with 9 characters
-
-def word9(dictionary, letters):
+def word9(dictionary,letters):
     for x in dictionary['words9']:
-        letter = []
-        for x in letters:
-            letter.append(x)
         word = []
+        let = list(letters)
         for i in range(0, len(x)):
-            if x[i] in letter:
-                letter.remove(x[i])
+            if x[i] in let:
+                let.remove(x[i])
                 word.append(x[i])
-        if len(word) == len(x) and len(letter) == 0 and len(x) > 2:
-            return word
+        if len(word) == len(x) and len(let) == 3 and len(x) > 2:
+            return "".join(word)
 
-
-
-# Getting word with 8 characters
-
-def word8(dictionary, letters):
+def word8(dictionary,letters):
     for x in dictionary['words8']:
-        letter = []
-        for x in letters:
-            letter.append(x)
         word = []
+        let = list(letters)
         for i in range(0, len(x)):
-            if x[i] in letter:
-                letter.remove(x[i])
+            if x[i] in let:
+                let.remove(x[i])
                 word.append(x[i])
-        if len(word) == len(x) and len(letter) == 0 and len(x) > 2:
-            return word
-
-
-
-# Getting word with 7 characters
-
-def word7(dictionary, letters):
+        if len(word) == len(x) and len(let) == 4 and len(x) > 2:
+            return "".join(word)
+def word7(dictionary,letters):
     for x in dictionary['words7']:
-        letter = []
-        for x in letters:
-            letter.append(x)
         word = []
+        let = list(letters)
         for i in range(0, len(x)):
-            if x[i] in letter:
-                letter.remove(x[i])
+            if x[i] in let:
+                let.remove(x[i])
                 word.append(x[i])
-        if len(word) == len(x) and len(letter) == 0 and len(x) > 2:
-            return word
+        if len(word) == len(x) and len(let) == 5 and len(x) > 2:
+            return "".join(word)
 
-
-
-# Getting word with 6 characters
-
-def word6(dictionary, letters):
+def word6(dictionary,letters):
     for x in dictionary['words6']:
-        letter = []
-        for x in letters:
-            letter.append(x)
         word = []
+        let = list(letters)
         for i in range(0, len(x)):
-            if x[i] in letter:
-                letter.remove(x[i])
+            if x[i] in let:
+                let.remove(x[i])
                 word.append(x[i])
-        if len(word) == len(x) and len(letter) == 0 and len(x) > 2:
-            return word
+        if len(word) == len(x) and len(let) == 6 and len(x) > 2:
+            return "".join(word)
 
-
-
-# Getting word with 5 characters
-
-def word5(dictionary, letters):
+def word5(dictionary,letters):
     for x in dictionary['words5']:
-        letter = []
-        for x in letters:
-            letter.append(x)
         word = []
+        let = list(letters)
         for i in range(0, len(x)):
-            if x[i] in letter:
-                letter.remove(x[i])
+            if x[i] in let:
+                let.remove(x[i])
                 word.append(x[i])
-        if len(word) == len(x) and len(letter) == 0 and len(x) > 2:
-            return word
+        if len(word) == len(x) and len(let) == 7 and len(x) > 2:
+            return "".join(word)
 
-
-
-# Getting word with 4 characters
-
-def word4(dictionary, letters):
+def word4(dictionary,letters):
     for x in dictionary['words4']:
-        letter=[]
-        for x in letters:
-            letter.append(x)
         word = []
+        let = list(letters)
         for i in range(0, len(x)):
-            if x[i] in letter:
-                letter.remove(x[i])
+            if x[i] in let:
+                let.remove(x[i])
                 word.append(x[i])
-        if len(word) == len(x) and len(letter) == 0 and len(x) > 2:
-            return word
+        if len(word) == len(x) and len(let) == 8 and len(x) > 2:
+            return "".join(word)
 
-
-# Getting word with 3 characters
-
-def word3(dictionary, letters):
+def word3(dictionary,letters):
     for x in dictionary['words3']:
-        letter=[]
-        for x in letters:
-            letter.append(x)
         word = []
+        let = list(letters)
         for i in range(0, len(x)):
-            if x[i] in letter:
-                letter.remove(x[i])
+            if x[i] in let:
+                let.remove(x[i])
                 word.append(x[i])
-        if len(word) == len(x) and len(letter) == 0 and len(x) > 2:
-            return word
-
+        if len(word) == len(x) and len(let) == 9 and len(x) > 2:
+            return "".join(word)

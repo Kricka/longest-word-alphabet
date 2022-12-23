@@ -143,3 +143,4 @@ for x in word_dictionary['words3']:
         break
 
 print(f"Longest word is: {results[0].upper()}")
+
