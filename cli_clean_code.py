@@ -1,4 +1,5 @@
-from functions import get_words,lower_case,words_split,random_letters,word12,word11,word10,word9,word8,word7,word6, word5,word4,word3
+from functions import get_words,lower_case,words_split,random_letters,word12,word11,word10,word9,word8,word7,\
+                        word6, word5,word4,word3
 
 
 words_database = get_words()
